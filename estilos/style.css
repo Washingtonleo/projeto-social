@@ -69,10 +69,15 @@ section#redes-sociais img:hover{
     transition: transform .3s, border 1s;
 }
 
+::-webkit-scrollbar{/*esconde a barra de rolagem*/
+    width: 0px;
+    height: 0px;
+}
+
 .img2{
     width: 57vh;
 }
-a.link{
+body > a.link{
     display: block;
     background-color: darkred;
     color: white;
@@ -81,6 +86,6 @@ a.link{
     font-weight: bolder;
     text-decoration: none;
 }
-a.link:hover{
+body > a.link:hover{
     background-color: red;
 }
